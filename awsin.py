@@ -4,7 +4,7 @@ from botocore.exceptions import ClientError
 import uuid
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'
+app.secret_key = 'Raju'
 
 # ------------------ DynamoDB Connection ------------------
 dynamodb = boto3.resource('dynamodb', region_name='ap-south-1')  # Use your correct AWS region
